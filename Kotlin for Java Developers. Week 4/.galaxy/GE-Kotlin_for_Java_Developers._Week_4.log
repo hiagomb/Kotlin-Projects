@@ -1,0 +1,27 @@
+[2022-08-01 15:21:31] [L] galaxy property is null or empty 
+[2022-08-01 15:21:31] [L] Non-GB Project : Kotlin_for_Java_Developers._Week_4 
+[2022-08-01 15:21:31] [L] allprojects : project : Board-Task 
+[2022-08-01 15:21:31] [L] Non-GB Project : Board-Task 
+[2022-08-01 15:21:31] [L] allprojects : project : Rationals-Task 
+[2022-08-01 15:21:31] [L] Non-GB Project : Rationals-Task 
+[2022-08-01 15:21:31] [L] allprojects : project : util 
+[2022-08-01 15:21:31] [L] Phantom project at C:\Users\hiago.mb\AndroidStudioProjects\Kotlin for Java Developers. Week 4\util 
+[2022-08-01 15:21:31] [L] Non-GB Project : util 
+[2022-08-01 15:21:31] [D] gradle projects loaded 
+[2022-08-01 15:21:31] [I] set common default repository : samsung maven 
+[2022-08-01 15:21:31] [I]     Default Repo : buildscript repository : http://10.252.250.53:8081/lm/content/groups/public/ 
+[2022-08-01 15:21:31] [I]     Default Repo : repository : http://10.252.250.53:8081/lm/content/groups/public/ 
+[2022-08-01 15:21:31] [I] set common default strategy 
+[2022-08-01 15:21:31] [I] set common default repository : samsung maven 
+[2022-08-01 15:21:31] [I]     Default Repo : buildscript repository : http://10.252.250.53:8081/lm/content/groups/public/ 
+[2022-08-01 15:21:31] [I]     Default Repo : repository : http://10.252.250.53:8081/lm/content/groups/public/ 
+[2022-08-01 15:21:31] [I] set common default strategy 
+[2022-08-01 15:21:31] [I] set common default repository : samsung maven 
+[2022-08-01 15:21:31] [I]     Default Repo : buildscript repository : http://10.252.250.53:8081/lm/content/groups/public/ 
+[2022-08-01 15:21:31] [I]     Default Repo : repository : http://10.252.250.53:8081/lm/content/groups/public/ 
+[2022-08-01 15:21:31] [I] set common default strategy 
+[2022-08-01 15:21:31] [I] set common default repository : samsung maven 
+[2022-08-01 15:21:31] [I]     Default Repo : buildscript repository : http://10.252.250.53:8081/lm/content/groups/public/ 
+[2022-08-01 15:21:31] [I]     Default Repo : repository : http://10.252.250.53:8081/lm/content/groups/public/ 
+[2022-08-01 15:21:31] [I] set common default strategy 
+[2022-08-01 15:21:32] [D] gradle projects evaluated 

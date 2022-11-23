@@ -1,0 +1,181 @@
+
+
+
+<!DOCTYPE html>
+<html id="htmlId">
+<head>
+  <title>Coverage Report > Section_6_and_7Kt</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+    @import "../../.css/highlight-idea.css";
+  </style>
+  <script type="text/javascript" src="../../.js/highlight.pack.js"></script>
+</head>
+
+<body>
+<div class="content">
+<div class="breadCrumbs">
+Current scope:     <a href="../../index.html">all classes</a>
+    <span class="separator">|</span>
+    <a href="../index.html">com.example.udemykotlincourse</a>
+</div>
+
+<h1>Coverage Summary for Class: Section_6_and_7Kt (com.example.udemykotlincourse)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">Section_6_and_7Kt</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    42.9%
+  </span>
+  <span class="absValue">
+    (3/7)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    13.6%
+  </span>
+  <span class="absValue">
+    (3/22)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<pre>
+<div class="sourceCode" id="sourceCode"><i class="no-highlight">1</i>&nbsp;package com.example.udemykotlincourse
+<i class="no-highlight">2</i>&nbsp;
+<i class="no-highlight">3</i>&nbsp;//    UInt = Unsigned (somente positivo)
+<i class="no-highlight">4</i>&nbsp;//    var = mutável
+<i class="no-highlight">5</i>&nbsp;//    val = imutavel
+<i class="no-highlight">6</i>&nbsp;//    *usar val é uma boa prática – mais previsível
+<i class="no-highlight">7</i>&nbsp;//
+<i class="no-highlight">8</i>&nbsp;//    Funções em única linha
+<i class="no-highlight">9</i>&nbsp;//    Fun divisão(a: Float, b: Float) = a/b
+<i class="no-highlight">10</i>&nbsp;
+<i class="no-highlight">11</i>&nbsp;
+<i class="no-highlight">12</i>&nbsp;/*when is equivalent to switch
+<i class="no-highlight">13</i>&nbsp;    when(cargo){
+<i class="no-highlight">14</i>&nbsp;        &quot;Gerente&quot; -&gt; 2000f
+<i class="no-highlight">15</i>&nbsp;        &quot;Colaborador&quot; -&gt; 100f
+<i class="no-highlight">16</i>&nbsp;        else -&gt; 500f
+<i class="no-highlight">17</i>&nbsp;    }
+<i class="no-highlight">18</i>&nbsp;*/
+<i class="no-highlight">19</i>&nbsp;
+<i class="no-highlight">20</i>&nbsp;
+<i class="no-highlight">21</i>&nbsp;fun main() {
+<i class="no-highlight">22</i>&nbsp;//    yearTranform(2)
+<i class="no-highlight">23</i>&nbsp;//    println(&quot;Count char of teste: ${countChar(&quot;teste&quot;)}&quot;)
+<i class="no-highlight">24</i>&nbsp;//    println(&quot;Cube of 3 = ${cubeNum(3)}&quot;)
+<i class="no-highlight">25</i>&nbsp;//    println(&quot;15 miles is equals to ${convertMiles(15.0)} km&quot;)
+<i class="no-highlight">26</i>&nbsp;
+<b class="nc"><i class="no-highlight">27</i>&nbsp;    println(&quot;${ex1()} balões de água de 7 litros&quot;)</b>
+<i class="no-highlight">28</i>&nbsp;
+<i class="no-highlight">29</i>&nbsp;
+<b class="nc"><i class="no-highlight">30</i>&nbsp;}</b>
+<i class="no-highlight">31</i>&nbsp;
+<i class="no-highlight">32</i>&nbsp;
+<i class="no-highlight">33</i>&nbsp;
+<i class="no-highlight">34</i>&nbsp;fun yearTranform(years: Int){
+<b class="nc"><i class="no-highlight">35</i>&nbsp;    val months = years * 12</b>
+<b class="nc"><i class="no-highlight">36</i>&nbsp;    val days = years * 365</b>
+<b class="nc"><i class="no-highlight">37</i>&nbsp;    val hours = days * 24</b>
+<b class="nc"><i class="no-highlight">38</i>&nbsp;    val minutes = hours * 60</b>
+<i class="no-highlight">39</i>&nbsp;
+<b class="nc"><i class="no-highlight">40</i>&nbsp;    println(&quot;$years years is equals to $months monts, $days days, $hours hours and $minutes minutes&quot;)</b>
+<i class="no-highlight">41</i>&nbsp;
+<b class="nc"><i class="no-highlight">42</i>&nbsp;}</b>
+<i class="no-highlight">43</i>&nbsp;
+<b class="fc"><i class="no-highlight">44</i>&nbsp;fun countChar(string: String) = string.length</b>
+<i class="no-highlight">45</i>&nbsp;
+<b class="fc"><i class="no-highlight">46</i>&nbsp;fun cubeNum(num: Int) = num * num * num</b>
+<i class="no-highlight">47</i>&nbsp;
+<b class="fc"><i class="no-highlight">48</i>&nbsp;fun convertMiles(miles: Double) = miles * 1.6</b>
+<i class="no-highlight">49</i>&nbsp;
+<i class="no-highlight">50</i>&nbsp;fun testFor(){
+<b class="nc"><i class="no-highlight">51</i>&nbsp;    for(i in 0..10){</b>
+<i class="no-highlight">52</i>&nbsp;        //imprime o 10 também
+<i class="no-highlight">53</i>&nbsp;    }
+<i class="no-highlight">54</i>&nbsp;
+<b class="nc"><i class="no-highlight">55</i>&nbsp;    for(i in 0 until 10){</b>
+<i class="no-highlight">56</i>&nbsp;        //imprime até 9
+<i class="no-highlight">57</i>&nbsp;    }
+<i class="no-highlight">58</i>&nbsp;
+<b class="nc"><i class="no-highlight">59</i>&nbsp;    val teste= &quot;goisfdjgofdg&quot;</b>
+<b class="nc"><i class="no-highlight">60</i>&nbsp;    for(ch in teste){</b>
+<i class="no-highlight">61</i>&nbsp;        //equivalent to for:it
+<i class="no-highlight">62</i>&nbsp;    }
+<b class="nc"><i class="no-highlight">63</i>&nbsp;}</b>
+<i class="no-highlight">64</i>&nbsp;
+<i class="no-highlight">65</i>&nbsp;
+<i class="no-highlight">66</i>&nbsp;fun ex1(): Int{
+<b class="nc"><i class="no-highlight">67</i>&nbsp;    var i = 0;</b>
+<b class="nc"><i class="no-highlight">68</i>&nbsp;    var count= 0;</b>
+<b class="nc"><i class="no-highlight">69</i>&nbsp;    while(i &lt; 2000){</b>
+<b class="nc"><i class="no-highlight">70</i>&nbsp;        i+= 7</b>
+<b class="nc"><i class="no-highlight">71</i>&nbsp;        count++</b>
+<i class="no-highlight">72</i>&nbsp;    }
+<i class="no-highlight">73</i>&nbsp;
+<b class="nc"><i class="no-highlight">74</i>&nbsp;    return count-1</b>
+<i class="no-highlight">75</i>&nbsp;}
+<i class="no-highlight">76</i>&nbsp;
+</div>
+</pre>
+</div>
+
+<script type="text/javascript">
+(function() {
+    var msie = false, msie9 = false;
+    /*@cc_on
+      msie = true;
+      @if (@_jscript_version >= 9)
+        msie9 = true;
+      @end
+    @*/
+
+    if (!msie || msie && msie9) {
+        var codeBlock = document.getElementById('sourceCode');
+
+        if (codeBlock) {
+            hljs.highlightBlock(codeBlock);
+        }
+    }
+})();
+</script>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2022-08-05 16:03</div>
+</div>
+</body>
+</html>
